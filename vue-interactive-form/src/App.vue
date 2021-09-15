@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="logo">
-      <h1>Intentional Wealth Generation Assessment</h1>
+      <h1>Vue.js Custom Form</h1>
     </div>
     <form-config-provider />
   </div>
