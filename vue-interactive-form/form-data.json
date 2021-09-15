@@ -1,0 +1,191 @@
+{
+  "id": 20,
+  "meta": {
+    "type": "intake.IntakePage",
+    "detail_url": "http://localhost/api/v2/pages/20/",
+    "html_url": "http://localhost/",
+    "slug": "podium-questions",
+    "show_in_menus": false,
+    "seo_title": "",
+    "search_description": "",
+    "first_published_at": "2021-05-19T14:30:15.840647Z",
+    "parent": null
+  },
+  "title": "Podium Form",
+  "content": [
+    {
+      "type": "richText",
+      "value": {
+        "title": "Intentional Wealth Generation Assessment",
+        "title_type": "title",
+        "description": "<p data-block-key=\"i3jbq\">Identifying your biggest opportunities to achieve momentum and intentional wealth.</p><hr/><p data-block-key=\"fq9v5\">“<i>The difference between great people and everyone else is that great people create their lives actively, while everyone else is created by their lives, passively waiting to see where life takes them next.</i>”</p><p data-block-key=\"58jgq\">― Gerber Michael E., The E-Myth Revisited: Why Most Small Businesses Don&#x27;t Work and What to Do About It</p><hr/><p data-block-key=\"6jspf\">Welcome.</p><p data-block-key=\"cjucs\">You have arrived here because you are already experiencing a level of success in your business. A level big enough that it made you look up and realize that there may be opportunities to build upon that success more effectively!</p><p data-block-key=\"486b\">Caution: According to the Pareto, <b>only 4% of small business owners</b> are able to stop over-identifying with their business and embrace this next level; to really become objective, to understand and commit to these tools and thereby maximize your success into freedom and intentional wealth.</p><p data-block-key=\"e13l0\"><b>Are you one of the 4%?</b></p><p data-block-key=\"368rb\">Through this quick assessment you will discover ways to leverage that success. In reviewing where you are today, we can identify those levers that will have the greatest immediate impact on your existing success.</p><p data-block-key=\"101t7\">Please answer these questions honestly based on where you <i>are</i> now (<b>not</b> where you <i>want</i> to be) in order to generate the most accurate and valuable report and recommendations. Set aside 15-20 minutes to focus on this questionnaire so that you have the time to consider your situation. Use the 5-point scale to indicate which answer is truer for you right now.</p><p data-block-key=\"fqofh\"><b>When you have completed these 36 questions, you will instantly receive a downloadable, customized report on your #1 top strength and your top 3 opportunities.</b></p><p data-block-key=\"8p0mq\"></p><hr/><h4 data-block-key=\"egpa\">You will also qualify for a 90-minute sounding board session with our advisors to uncover the customized strategy that allows you to most effectively activate those opportunities in your specific business.</h4><hr/><p data-block-key=\"d423a\"></p>"
+      },
+      "id": "4e2b5bf1-fa7e-4ddf-a162-720f234677a4"
+    },
+    {
+      "type": "question_mc",
+      "value": {
+        "question": "Testing MC",
+        "mc_type": "mc_radio",
+        "choice_1": "My purchase and vacation decisions fluctuate depending on how good a year we are having.",
+        "choice_2": "My salary/dividends are consistent and my lifestyle is stable.  There is extra revenue retained in my corporation.",
+        "choice_3": "My 5 and 10 year vision have solid numbers tied to them internally  as well as personal and legacy goals that will generate.",
+        "choice_4": "",
+        "choice_5": "",
+        "question_mandatory": false
+      },
+      "id": "db1d7ea4-e562-43f5-aee0-335609113b5f"
+    },
+    {
+      "type": "question_mc",
+      "value": {
+        "question": "Testing MC 2",
+        "mc_type": "mc_checkbox",
+        "choice_1": "My purchase and vacation decisions fluctuate depending on how good a year we are having.",
+        "choice_2": "My salary/dividends are consistent and my lifestyle is stable.  There is extra revenue retained in my corporation.",
+        "choice_3": "",
+        "choice_4": "",
+        "choice_5": "",
+        "question_mandatory": false
+      },
+      "id": "10aadf3e-5099-48e3-9882-59e0115e2ba8"
+    },
+    {
+      "type": "richText",
+      "value": {
+        "title": "PILLAR 1 - Design",
+        "title_type": "pillar",
+        "description": "<p data-block-key=\"0yjc0\">Pillar 1 of Intentional Wealth speaks to being very deliberate about your success; defining your success clearly and achieving the lifestyle goals for which you are investing your time, money and energy. This includes aspects of financial and time freedom, lifestyle spending, family and community.</p>"
+      },
+      "id": "9b0125a3-a670-4831-a23f-2b4cd38b2744"
+    },
+    {
+      "type": "richText",
+      "value": {
+        "title": "Design - Lifestyle",
+        "title_type": "category",
+        "description": "<p data-block-key=\"0yjc0\">We all know the potential for high quality of life can be reached faster and with more flexibility through owning your own business. Each level you reach leads to a decrease in your involvement as you build a business from start-up to stable to systemized &amp; scalable and finally to saleable (even if you have no intention of selling). When done through planning, this creates increasing levels of freedom and improved lifestyle through wise and informed design.</p>"
+      },
+      "id": "e04d20e9-5133-4c10-a3de-180659001cc1"
+    },
+    {
+      "type": "question_mc",
+      "value": {
+        "question": "Multiple Choice Testing",
+        "mc_type": "mc_checkbox",
+        "choice_1": "a a a a a a  aa a a a a  a a",
+        "choice_2": "bb bbb bbbb bbbb  bbbbb bb bb",
+        "choice_3": "cccc ccc ccccccc cccccccc cccc",
+        "choice_4": "dddd dddddd dddd dddd ddddddd",
+        "choice_5": "eeeee eeee ee eeeeeee eeee eeeeee eee eeee",
+        "question_mandatory": false
+      },
+      "id": "9a3a18ae-ff53-4618-be0e-ec9b0194ae29"
+    },
+    {
+      "type": "question_range",
+      "value": {
+        "question": "To what level is your business able to run without you?",
+        "range_min_value": 1,
+        "range_max_value": 5,
+        "range_min_text": "I work  > 40 hours a week and am responsible for many operational decisions.",
+        "range_max_text": "My business is able to be independent of my continued active involvement giving me real freedom and spontaneity.",
+        "question_mandatory": false
+      },
+      "id": "4042f64a-b7a8-48cf-808c-d67df9e79a31"
+    },
+    {
+      "type": "question_range",
+      "value": {
+        "question": "I have the following  diversification of my wealth in choose (all that apply): not diversified, ecompassing 5-8 classes. Checklist of asset types 4 choices of real estate, 3 choices private equity, 3 types of insurance, stocks and bonds 3 types GICs etc",
+        "range_min_value": 1,
+        "range_max_value": 5,
+        "range_min_text": "LLLLLLLL LLLLLLLL OOOOOOOO OOOOOOOOOO WWWWWW WWWW",
+        "range_max_text": "HHHHHHH HHHH HHHHH IIIIIIIIIIIIII IIIIIIII GG GGGGGGGGGG GGGGG HHHH HH",
+        "question_mandatory": false
+      },
+      "id": "88f78813-014e-4c0e-be7b-9f1ad9b1d195"
+    },
+    {
+      "type": "richText",
+      "value": {
+        "title": "PILLAR 2 - Foundation",
+        "title_type": "pillar",
+        "description": "<p data-block-key=\"w189b\">Pillar 2 of Intentional Wealth looks to the long view plan and team with which you will build.</p><p data-block-key=\"70u6o\">When you first started out with a sole proprietorship or basic corporation, you had a shoebox-bookkeeper, your cousin the realtor, your buddy as a personal financial advisor, an anonymous banker, and hope. Your support team was… well, not very supportive.</p><p data-block-key=\"8hjsl\">Now as you reach greater success you can understand that each level of success requires the scaffolding to build it. You start talking to your accountant regularly and call your corporate lawyer by their first name. &lt;br&gt; Next steps are just as logical, and just as valuable; examining your corporate structure, exit strategy, and adding in next level advice and coaching, HR &amp; CFO support, and small business wealth strategy.</p><p data-block-key=\"4camq\">Next steps are just as logical, and just as valuable; examining your corporate structure, exit strategy, and adding in next level advice and coaching, HR &amp; CFO support, and small business wealth strategy.</p>"
+      },
+      "id": "9d326b1c-6676-4f13-bb77-339a23f80bee"
+    },
+    {
+      "type": "question_text",
+      "value": {
+        "question": "Name (First and Last)",
+        "validation_type": "alpha_spaces",
+        "question_mandatory": false
+      },
+      "id": "28fe2c0c-f78b-46be-b3a8-3c3b382f0392"
+    },
+    {
+      "type": "question_text",
+      "value": {
+        "question": "Business Name",
+        "validation_type": "alpha_spaces",
+        "question_mandatory": false
+      },
+      "id": "23551870-8104-43a5-9e08-f7f88823ced4"
+    },
+    {
+      "type": "question_text",
+      "value": {
+        "question": "Year of Incorporation",
+        "validation_type": "date",
+        "question_mandatory": false
+      },
+      "id": "8fe630fb-6662-4272-8dba-c961369ad3d6"
+    },
+    {
+      "type": "question_text",
+      "value": {
+        "question": "Email",
+        "validation_type": "email",
+        "question_mandatory": false
+      },
+      "id": "96a907b4-b0a7-47d4-a5a4-9ac9487382e8"
+    },
+    {
+      "type": "question_text",
+      "value": {
+        "question": "Age",
+        "validation_type": "numeric",
+        "question_mandatory": false
+      },
+      "id": "6b6b6321-2d77-4ac5-a67a-fd574b4d3fb3"
+    },
+    {
+      "type": "question_text",
+      "value": {
+        "question": "# of children",
+        "validation_type": "numeric",
+        "question_mandatory": false
+      },
+      "id": "e2f85b05-5c3c-4478-960e-024e5618c97e"
+    },
+    {
+      "type": "question_text",
+      "value": {
+        "question": "Marital status",
+        "validation_type": "alpha_spaces",
+        "question_mandatory": false
+      },
+      "id": "572de6af-337f-464d-b967-522ee9326b91"
+    },
+    {
+      "type": "richText",
+      "value": {
+        "title": "Thank you!",
+        "title_type": "title",
+        "description": "<p data-block-key=\"fhjle\">Thank</p><p data-block-key=\"3t64e\">you</p><p data-block-key=\"5q8ps\">paragraph</p><p data-block-key=\"82v16\"></p><embed embedtype=\"media\" url=\"https://www.youtube.com/watch?v=AoCjN_lLbKM\"/><p data-block-key=\"2eq18\"></p>"
+      },
+      "id": "4c1ab279-b46c-4014-a884-d827d66138b7"
+    }
+  ]
+}

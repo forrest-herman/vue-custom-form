@@ -1,0 +1,110 @@
+[
+  {
+    "type": "text",
+    "label": "Welcome. You have arrived here because you are already experiencing a level of success in your business. A level big enough that it made you look up and realize that there may be opportunities to build upon that success more effectively! Caution: According to the Pareto, only 4% of small business owners are able to stop over-identifying with their business and embrace this next level; to really become objective, to understand and commit to these tools and thereby maximize your success into freedom and intentional wealth.",
+    "name": "welcome",
+    "options": {
+      "choices": ["Full-time", "Part-time", "Distant"]
+    },
+    "validation": ""
+  },
+  {
+    "type": "range",
+    "label": "To what level is your business able to run without you?",
+    "name": "C1S1Q1",
+    "answer_bounds": {
+      "low": "I work  > 40 hours a week and am responsible for many operational decisions.",
+      "high": "My business is able to be independent of my continued active involvement giving me real freedom and spontaneity."
+    },
+    "options": {
+      "choices": ["1", "2", 3, 4, 5]
+    },
+    "validation": "required"
+  },
+  {
+    "type": "radio",
+    "label": "How do you intend that the wealth and experience you are creating will benefit your community and your family? Check all that apply",
+    "name": "sample",
+    "options": {
+      "choices": [
+        "Providing for my children's and grandchildren's education and housing needs is important to me.",
+        "It is important that I leave a solid inheritance for my family.",
+        "I would like to create an endowment to a college or hospital in the community",
+        "I see myself in the future mentoring young entrepreneurs",
+        "I would like to be an angel investor"
+      ]
+    },
+    "validation": "required"
+  },
+  {
+    "type": "radio",
+    "label": "How do you intend that the wealth and experience you are creating will benefit your community and your family? Check all that apply",
+    "name": "q1",
+    "options": {
+      "choices": ["Full-time", "Part-time", "Distant"]
+    },
+    "validation": "required"
+  },
+  {
+    "type": "text",
+    "label": "Last Name",
+    "name": "q2",
+    "options": {
+      "attrs": {
+        "placeholder": "Last Name"
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "check",
+    "label": "Courses",
+    "name": "q3",
+    "options": {
+      "choices": ["Project Management", "Business Analysis", "Product Management"]
+    },
+    "validation": "required"
+  },
+  {
+    "type": "radio",
+    "label": "Study Option",
+    "name": "q4",
+    "options": {
+      "choices": ["Full-time", "Part-time", "Distant"]
+    },
+    "validation": "required"
+  },
+  {
+    "type": "text",
+    "label": "Your Email",
+    "name": "q5",
+    "options": {
+      "attrs": {
+        "placeholder": "Your Email"
+      }
+    },
+    "validation": "required|email"
+  },
+  {
+    "type": "text",
+    "label": "Your phone Number",
+    "name": "q6",
+    "options": {
+      "attrs": {
+        "placeholder": "Your Contact"
+      }
+    },
+    "validation": "required|numeric"
+  },
+  {
+    "type": "textarea",
+    "label": "Tell us why do you want to study with us?",
+    "name": "q7",
+    "options": {
+      "attrs": {
+        "placeholder": "Write here..."
+      }
+    },
+    "validation": ""
+  }
+]

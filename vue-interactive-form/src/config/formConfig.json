@@ -1,0 +1,665 @@
+[
+  {
+    "type": "infoText",
+    "label": "Welcome.",
+    "intro": true,
+    "name": "welcome",
+    "description": {
+      "first": "You have arrived here because you are already experiencing a level of success in your business. A level big enough that it made you look up and realize that there may be opportunities to build upon that success more effectively!"
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "radio",
+    "label": "Who has been involved in helping with your legacy planning to date?",
+    "name": "C1S2Q4",
+    "options": {
+      "choices": ["Lawyer", "Accountant", "Banker", "Wealth Advisor", "CFO"]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "infoText",
+    "label": "Pillar 1: Design",
+    "name": "pillar1",
+    "description": {
+      "first": "Pillar 1 of Intentional Wealth speaks to being very deliberate about your success; defining your success clearly and achieving the lifestyle goals for which you are investing your time, money and energy. This includes aspects of financial and time freedom, lifestyle spending, family and community."
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "infoText",
+    "label": "Design - Lifestyle",
+    "name": "pillar1-lifestyle",
+    "description": {
+      "first": "We all know the potential for high quality of life can be reached faster and with more flexibility through owning your own business. Each level you reach leads to a decrease in your involvement as you build a business from start-up to stable to systemized & scalable and finally to saleable (even if you have no intention of selling). When done through planning, this creates increasing levels of freedom and improved lifestyle through wise and informed design."
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "range",
+    "label": "To what level is your business able to run without you?",
+    "name": "C1S1Q1",
+    "answer_bounds": {
+      "low": "I work  > 40 hours a week and am responsible for many operational decisions.",
+      "high": "My business is able to be independent of my continued active involvement giving me real freedom and spontaneity."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How stable and sustainable is your lifestyle spending?",
+    "name": "C1S1Q2",
+    "answer_bounds": {
+      "low": "My purchase and vacation decisions fluctuate depending on how good a year we are having.",
+      "high": "My salary/dividends are consistent and my lifestyle is stable.  There is extra revenue retained in my corporation."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": ""
+  },
+  {
+    "type": "range",
+    "label": "How prepared are you financially for retirement?",
+    "name": "C1S1Q3",
+    "answer_bounds": {
+      "low": "I don't really know. I have some money aside but not sure it is enough to actually stop working at retirement.",
+      "high": "I have developed adequate assets to create passive income that will support me in my planned lifestyle through all stages of retirement."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "Have you done the work to plan your lifestyle needs into retirement (or when you have moved into a work-optional lifestyle).",
+    "name": "C1S1Q4",
+    "answer_bounds": {
+      "low": "I haven't really thought about retirement. I have been assuming I would have to sacrifice my current lifestyle to prepare for that.",
+      "high": "Yes, I have a clear view of how my life will change as my relationship to my business changes over time. I have planned what retirement will look like, where I will live, how I will spend my time, and what the costs will be."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+
+  {
+    "type": "infoText",
+    "label": "Design - Legacy",
+    "name": "pillar1-legacy",
+    "description": {
+      "first": "Legacy for the family business owner goes far beyond creating bigger revenues and purposefully considers how your business can make a difference for your family and your community. Business owners are the backbone of our local economy, supporting charities and foundations, mentoring and teaching, raising their children to have character and commitment. Your business can be intentionally designed to achieve this legacy today and in the future. "
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+
+  {
+    "type": "range",
+    "label": "Do you have a clear definition of what success looks like for your business?",
+    "name": "C1S2Q1",
+    "answer_bounds": {
+      "low": "I have never defined what I would need to achieve in this business to be successful.",
+      "high": "My 5 and 10 year vision have solid numbers tied to them internally  as well as personal and legacy goals that will generate."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How important is it to you know your evolving net worth?",
+    "name": "C1S2Q2",
+    "answer_bounds": {
+      "low": "I just work to cover my lifestyle expenses.  That’s enough for me.  My net worth doesn’t concern me.",
+      "high": "This is a key number to me.  I update my net worth statement as part of my annual review and use it in my planning process."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How do you intend that the wealth and experience you are creating will benefit your  community and your family? Check all that apply",
+    "name": "C1S2Q3",
+    "answer_bounds": {
+      "low": "Providing for my children's and grandchildren's education and housing needs is important to me.",
+      "high": "I would like to be an angel investor"
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "infoText",
+    "label": "Design - Asset",
+    "name": "pillar1-asset",
+    "description": {
+      "first": "“Often, the more money you make the more money you spend; that’s why more money doesn’t make you rich – assets make you rich.” – Robert Kiyosaki.",
+      "second": "As Robert Kiyosaki points out – the process entrepreneurs need to follow is to run rapidly from Employee to Self-Employment into Business Owner (creating a true asset) and using that business asset for Investment."
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "range",
+    "label": "Do you have a clear understanding of the valuation drivers for business in your industry.",
+    "name": "C1S3Q1",
+    "answer_bounds": {
+      "low": "Not really, I have calculated land and equipment value.",
+      "high": "I have a firm grasp of the blend of Goodwill and assets that create value in this industry."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "Are you confident with the method of creating a valuation for your business?",
+    "name": "C1S3Q2",
+    "answer_bounds": {
+      "low": "I have never looked at that.",
+      "high": "Yes, and I have recently completed a full valuation for my business."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "Is your business is on track to achieve the valuation it is capable of?",
+    "name": "C1S3Q3",
+    "answer_bounds": {
+      "low": "I don't know.",
+      "high": "Yes. Explicit targets are established and reviewed. I even have an exit date in mind."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How far has your business grown toward becoming an asset?",
+    "name": "C1S3Q4",
+    "answer_bounds": {
+      "low": "My business is focused on generating increasing revenue.",
+      "high": "My corporate structure and financial vehicles put my excess retained earnings to work to build wealth through my holding company."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "infoText",
+    "label": "Pillar 2: Foundation",
+    "name": "pillar2-foundation",
+    "description": {
+      "first": "Pillar 2 of Intentional Wealth looks to the long view plan and team with which you will build. When you first started out with a sole proprietorship or basic corporation, you had a shoebox-bookkeeper, your cousin the realtor, your buddy as a personal financial advisor, an anonymous banker, and hope. Your support team was… well, not very supportive. Now as you reach greater success you can understand that each level of success requires the scaffolding to build it. You start talking to your accountant regularly and call your corporate lawyer by their first name. Next steps are just as logical, and just as valuable; examining your corporate structure, exit strategy, and adding in next level advice and coaching, HR & CFO support, and small business wealth strategy."
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "infoText",
+    "label": "Foundation - Plans",
+    "name": "pillar2-plans",
+    "description": {
+      "first": "“Be brave enough to start a conversation that matters.” Bob Proctor. A successful family business has more cards up their sleeve than you may realize. With the right structure and a long-term plan the same amount of revenue can have a significantly elevated wealth trajectory. Let’s have a look at the blueprints."
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "range",
+    "label": "Is your existing corporate structure appropriate to your current levels of success?",
+    "name": "C2S1Q1",
+    "answer_bounds": {
+      "low": "I have not looked at my structure since I incorporated.",
+      "high": "I review my integrated family and business structure annually, and as circumstances change, with my advisors."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "Beyond being employees, have your immediate family members been incorporated into your tax planning?",
+    "name": "C2S1Q2",
+    "answer_bounds": {
+      "low": "No",
+      "high": "Yes"
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How prepared are you in exit planning for your business?",
+    "name": "C2S1Q3",
+    "answer_bounds": {
+      "low": "This is not something I have worked on.",
+      "high": "I have considered in detail the various exit scenarios for my business (both intentional and unexpected)."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How comprehensive is your current financial plan?",
+    "name": "C2S1Q4",
+    "answer_bounds": {
+      "low": "It may be missing a few components.",
+      "high": "I have a written and fully implemented plan which I feel confident covers everything important integrating both business and family."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "I and my immediate family own the following percentage of my company",
+    "name": "C2S1Q5",
+    "answer_bounds": {
+      "low": "<10%",
+      "high": "100%"
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "infoText",
+    "label": "Foundation - Governance",
+    "name": "pillar2-governance",
+    "description": {
+      "first": "“Even if you are on the right track, you’ll get run over if you just sit there.” – Will Rodgers. Exponential success doesn’t just happen – it takes intentional measurement, management, and adjustment in a process-driven and proactive way. This executive level work is the key area to “working on” your business. Let’s see if there are opportunities for more deliberate governance answer_boundss."
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "range",
+    "label": "Do you have one person designated (yourself or a senior partner) as the person responsible for business oversight and effective communication with your team of advisors?",
+    "name": "C2S2Q1",
+    "answer_bounds": {
+      "low": "No, I tend to react to crises and wait to respond to the requests and reminders from my team. We tend to have a putting out fires culture.",
+      "high": "Yes, and we have proactive systems and processes in place for scheduled and triggered communication and review."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How relevant and impactful is your financial plan?",
+    "name": "C2S2Q2",
+    "answer_bounds": {
+      "low": "It sits on a shelf behind my computer gathering dust.",
+      "high": "I review and update my plan as a dynamic living document in order to make wise and informed decisions. "
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "Do you measure and evaluate the implementation of my plan?",
+    "name": "C2S2Q3",
+    "answer_bounds": {
+      "low": "Doesn't my accountant do this?",
+      "high": "I proactively manage, measure and evaluate the aspects of implementation of the plan including how it integrates personal and business finances."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How well do you understand and value the process and discipline of a written plan?",
+    "name": "C2S2Q4",
+    "answer_bounds": {
+      "low": "I am not sure there is any point to it.",
+      "high": "I highly value and seek out the expertise to contribute to my ongoing planning process. We have systems and key performance indicators tracking our progress."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "infoText",
+    "label": "Foundation - Team",
+    "name": "pillar2-team",
+    "description": {
+      "first": "Most good leaders want the perspective of people they trust. --John C. Maxwell. As an entrepreneur, your ability to make wise decisions and commit to rapid action is a big part of what got you here. Your openness to seeking the expert advice of your team and make informed decisions based on data and expertise is what allows you to build faster, easier and further. How are you building and collaborating with your team?"
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "range",
+    "label": "How important is your team of lawyer, account, wealth strategist etc?",
+    "name": "C2S3Q1",
+    "answer_bounds": {
+      "low": "We have product/service based interactions. My business isn't big enough to expect more.",
+      "high": "I actively collaborated with my team for planning the ongoing success of my business. Our relationships are important and nurtured."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "What is your ongoing ability to rely on this team's expertise?",
+    "name": "C2S3Q2",
+    "answer_bounds": {
+      "low": "I use their services for the bare minimum.",
+      "high": "I review my plan and any progress, changes and opportunities with my team as part of the grander scheme of decision making."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "Beyond the one or two year financial window, do you have members of your team working on the long view of leveraging the wealth generated by your business?",
+    "name": "C2S3Q3",
+    "answer_bounds": {
+      "low": "I have never considered this/did not know there was an advisor that would do this.",
+      "high": "I have a wealth advisor that I rely on for my 5, 10 and 20 year intentional wealth creation."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "infoText",
+    "label": "Pillar 3 - Build",
+    "name": "pillar3-build",
+    "description": {
+      "first": "“Begin with the end in mind.” --Steven Covey. Building your business with a long-view perspective is key to the creation of intentional worth in the small business. It allows you to be both proactive and responsive within the reality of business. This long-term vision and flexibility is key to the commitment needed to build a business bigger than you."
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "infoText",
+    "label": "Build - Risk Wise",
+    "name": "pillar3-risk_wise",
+    "description": {
+      "first": "“Every business and every product has risks. You can’t get around it.” --Lee Iacocca. Your ability to confront, evaluate, and accept well-considered risk relative to the return on investment of your time, money and energy is a core capability of the successful business owner. This awareness and strength enable you to confront the risk inherent in the beginning stages of your business and minimize that risk over time."
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "range",
+    "label": "When contemplating exit scenarios have you considered involuntary eventualities such as illness, disability or death?",
+    "name": "C3S1Q1",
+    "answer_bounds": {
+      "low": "I have only considered the idea of voluntary retirment someday.",
+      "high": "Yes, I have a plan for each of those scenarios."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How often do you re-assess your current risk? ",
+    "name": "C3S1Q2",
+    "answer_bounds": {
+      "low": "My personal financial advisor has a form for this we fill out each year.",
+      "high": "I regularly evaluate and re-align income and asset allocations to my current risk assessment. "
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How would you rate your understanding of where you and your household stand related to risk and return?",
+    "name": "C3S1Q3",
+    "answer_bounds": {
+      "low": "Poor. I am not clear on the how these are determined and balanced. I go by instinct.",
+      "high": "I am very clear on this relationship and adjust between various asset types as my situation evolves and realign as needed."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "I have the following  diversification of my wealth in choose (all that apply): not diversified, ecompassing 5-8 classes. Checklist of asset types 4 choices of real estate, 3 choices private equity, 3 types of insurance, stocks and bonds 3 types GICs etc",
+    "name": "C3S1Q4",
+    "answer_bounds": {
+      "low": "TBD",
+      "high": "TBD"
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "infoText",
+    "label": "Build - Tax Wise",
+    "name": "pillar3-tax_wise",
+    "description": {
+      "first": "When it comes to small business, you have three invisible cards up your sleeve. Invisible because you need to know they exist in order to play them. Let’s look at the structure and plans you have in place to reduce the tax burden on your business now and in the future."
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "range",
+    "label": "Have you considered or implemented one or more of the following: holding company, family trust, real estate corporation, estate freeze.",
+    "name": "C3S2Q1",
+    "answer_bounds": {
+      "low": "None",
+      "high": "All"
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "What is your approach to tax management?",
+    "name": "C3S2Q2",
+    "answer_bounds": {
+      "low": "Maximizing my tax reductions for the current year",
+      "high": "I am using a long-term approach that integrates my structure, my business, my estate and my family."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "Are your affairs are set up to ensure you are able to take advantage of the Lifetime Capital Gains Exemption (LCGE)?",
+    "name": "C3S2Q3",
+    "answer_bounds": {
+      "low": "I’m not sure what LCGE is.",
+      "high": "My setup of my affairs includes the multiplicities of LCGE between several family members."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How well does your current tax planning prepare for the transition of your business valuation into your personal finances?",
+    "name": "C3S2Q4",
+    "answer_bounds": {
+      "low": "I did not know there was a way to prepare for that other than deferring all I can.",
+      "high": "I have a range of structure and tax shelters in place to reduce the tax burden on me and my business by 6 (or 7) figures."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "infoText",
+    "label": "Build - Cash Wise",
+    "name": "pillar3-cash_wise",
+    "description": {
+      "first": "As you proceed through the levels of business wealth creation, you discover that there are set-points at which it is not just about what you invest in. As a business owner you have more choice as to how, where, and from where you invest. What opportunities are open to you right now?"
+    },
+    "options": {
+      "attrs": {
+        "placeholder": ""
+      }
+    },
+    "validation": ""
+  },
+  {
+    "type": "range",
+    "label": "What is your current level of business cash?",
+    "name": "C3S3Q1",
+    "answer_bounds": {
+      "low": "All of my revenue is used in my day-to-day business functions and funding my lifestyle.",
+      "high": "My business generates consistent or growing revenue, sufficient for business operations, steady payroll, with retained earnings."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "What is your strategy for using any cash in excess of current needs?",
+    "name": "C3S3Q2",
+    "answer_bounds": {
+      "low": "It is in a savings account at the bank.",
+      "high": "My goal is a diversified portfolio of investments, real estate and available cash. In so doing I prepared for opportunity and have tax efficiently prepared for retirement."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "How easy is it for you to articulate your plan for funding your retirement?",
+    "name": "C3S3Q3",
+    "answer_bounds": {
+      "low": "Difficult and uncertain.",
+      "high": "I know the order in which I will utilize each strategic asset class or liquidate positioned assets."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "What is your strategy for investing?",
+    "name": "C3S3Q4",
+    "answer_bounds": {
+      "low": "I take cash out of the business as salary to invest.",
+      "high": "I use a Holding Company to invest in a range of asset classes at the lower corporate rate."
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  },
+  {
+    "type": "range",
+    "label": "As you worked through the questionnaire which of these nine pillars did you feel were most urgent?",
+    "name": "C3S3Q5",
+    "answer_bounds": {
+      "low": "Foundation: Lifestyle, Legacy, Asset",
+      "high": "Build: Cash-Wise, Tax-Wise, Risk-Wise"
+    },
+    "options": {
+      "choices": [1, 2, 3, 4, 5]
+    },
+    "validation": "notrequired"
+  }
+]

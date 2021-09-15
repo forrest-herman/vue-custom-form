@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap");
+
+body {
+  margin: 0;
+}
+
+#app {
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #092e4e;
+  background-color: #d8dbe2;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  min-height: 100vh;
+  /* background-image: url("../img/bg.svg"); */
+  /* background-position: bottom; */
+  /* background-size: cover; */
+  /* height: 100vh; */
+  /* background-repeat: no-repeat; */
+}
+
+/* Logo Title - Intentional Wealth Generation Assessment */
+.logo {
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  /* padding-top: 50px; */
+}
+.logo h1 {
+  font-weight: 500;
+  font-size: 1.7em;
+  text-align: center;
+  user-select: none;
+}
+
+/* HTML Tags */
+h1 {
+  margin: 15px;
+  font-weight: 300;
+}
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}
+
+h2:not(:first-child) {
+  margin-top: 0.75em;
+}
+
+*:focus {
+  outline: none;
+}
+
+/* Form */
+.field-group {
+  position: absolute;
+  top: max(125px, 25% - 100px);
+  width: 100%;
+  padding-bottom: 100px;
+  background-color: #d8dbe2;
+}
+.field-label {
+  display: block;
+  font-size: 1.7em;
+  padding-bottom: 15px;
+}
+
+div[type="check"] {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/* Range Selector and Radio */
+.range-slider-div {
+  width: 85%;
+}
+.range-text {
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.range-text-sm {
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+div[type="radio"] {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 15px;
+}
+
+div[type="range"] {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 15px;
+}
+
+div.range {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.radio-item {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+input[type="textField"],
+textarea {
+  border-color: transparent;
+  border-bottom: 1px solid #ced4e2 !important;
+  color: #092e4e;
+  height: 30px;
+  width: 75%;
+  font-size: 1.5em;
+  border-radius: 3px;
+  background-color: transparent;
+}
+textarea {
+  height: 120px;
+  width: 100%;
+}
+
+/* .form-template {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  height: auto;
+} */
+
+.field-area {
+  padding: 3em;
+  background-color: #96acb7;
+  box-shadow: 1px 1px 1px 1px rgba(106, 145, 146, 0.4);
+  border-radius: 10px;
+  margin: 0 auto 50px auto;
+  width: 75%;
+  max-width: 1400px;
+}
+.pillar {
+  color: rgb(0, 17, 255);
+}
+.category {
+  color: rgb(225, 0, 255);
+}
+
+.form-error-message {
+  font-size: smaller;
+  margin: 1em;
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #ef6574;
+  text-align: center;
+  font-weight: 400;
+}
+.form-complete {
+  padding-top: 5%;
+  font-size: 1.2em;
+}
+.form-complete h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+.form-complete p {
+  padding-left: 100px;
+}
+
+/* Navigation and Progress Bar */
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffc400; /* inherit */
+  box-shadow: 0px 2px 5px 1px rgb(9, 46, 78, 0.3);
+  padding: 5px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.5s ease;
+}
+
+.form-button {
+  border: 1px solid #f4f7ff;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #ffc400;
+  font-size: 1.1em;
+  left: Calc(50% - 25px);
+  box-shadow: 1px 1px 1px 1px rgba(150, 172, 183, 0.4);
+  cursor: pointer;
+}
+
+.nav .form-button {
+  font-weight: 500;
+  padding: 10px;
+  background-color: rgba(150, 172, 183, 1);
+}
+.form-error-message .form-button {
+  font-weight: 500;
+  padding: 10px;
+  position: inherit;
+}
+
+.bar {
+  height: 7px;
+  width: 0px;
+  background-color: #092e4e;
+  border-radius: 2px;
+  position: fixed;
+  bottom: 66px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Generic media query for portrait mode */
+@media only screen and (max-width: 800px) {
+  input[type="text"] {
+    font-size: 1.4em;
+  }
+  textarea {
+    font-size: 1.2em;
+  }
+  .field-label {
+    font-size: 1.5em;
+  }
+  .field-group {
+    top: 20% !important;
+  }
+  .field-area {
+    padding: 2em 1em !important;
+    width: 90%;
+  }
+  .form-error-message .form-button {
+    display: none;
+  }
+  .form-complete {
+    padding-top: 35%;
+    padding-bottom: 35%;
+  }
+
+  .form-complete p {
+    padding-left: 30px !important;
+  }
+}
