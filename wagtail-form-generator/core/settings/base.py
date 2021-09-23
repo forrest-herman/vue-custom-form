@@ -113,11 +113,6 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": "wt_core_db",
-        'USER': 'myuser',
-        'PASSWORD': 'password',
-        # Empty for localhost through domain sockets or           '127.0.0.1' for localhost through TCP.
-        'HOST': 'localhost',
-        'PORT': '',
     }
 }
 
