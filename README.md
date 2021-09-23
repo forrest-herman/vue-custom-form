@@ -6,10 +6,10 @@ __Form:__ https://vue-custom-form.herokuapp.com/
 
 __Backend to customize form items:__ 
 
-Default login credentials for Wagtail: 
+### Default login credentials for Wagtail: 
 
-Username: admin
-Password: password
+__Username:__ admin \
+__Password:__ password
 
 
 This is a project making use of the article **[Building an Interactive and Distraction-free Form with Vue](https://medium.com/vue-mastery/building-an-interactive-and-distraction-free-form-with-vue-bfe23907e981)**.
