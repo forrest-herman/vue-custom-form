@@ -4,7 +4,7 @@
 
 __Form:__ https://vue-custom-form.herokuapp.com/
 
-__Backend to customize form items:__ 
+__Backend to customize form items:__ https://wagtail-form-generator.herokuapp.com/admin
 
 ### Default login credentials for Wagtail: 
 
