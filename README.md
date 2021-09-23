@@ -4,10 +4,13 @@ This is a project making use of the article **[Building an Interactive and Distr
 
 This implementation uses a JSON file to generate the custom form. In our use case, the JSON file is fetched via a wagtail site, where the form can be created using the wagtail CMS login.
 
+## LOGIN DETAILS
+
 Default login credentials for Wagtail: 
 
 Username: admin
 Password: password
+
 
 ## Project setup
 
