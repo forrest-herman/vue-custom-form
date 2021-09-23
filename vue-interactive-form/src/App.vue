@@ -34,6 +34,7 @@ export default {
     async getData() {
       await axios
         .get("http://localhost:8000/api/v2/pages/20/")
+        // .get("http://localhost:8000/api/v2/pages/20/")    ||||| LOCAL
         .then(response => {
           this.formData = response.data.content
         })
