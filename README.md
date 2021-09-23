@@ -12,6 +12,8 @@ __Username:__ admin \
 __Password:__ password
 
 
+## About
+
 This is a project making use of the article **[Building an Interactive and Distraction-free Form with Vue](https://medium.com/vue-mastery/building-an-interactive-and-distraction-free-form-with-vue-bfe23907e981)**.
 
 This implementation uses a JSON file to generate the custom form. In our use case, the JSON file is fetched via a wagtail site, where the form can be created using the wagtail CMS login.
