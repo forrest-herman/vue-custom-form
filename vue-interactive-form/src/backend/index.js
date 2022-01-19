@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const $axios = axios.create({
-  baseURL: "http://127.0.0.1:8000/api/v2/pages/",
+  baseURL: "https://wagtail-form-generator.herokuapp.com/api/v2/pages/",
   timeout: 5000,
   headers: { "Content-Type": "application/json" }
 })
@@ -20,7 +20,7 @@ $axios.interceptors.response.use(
 export default {
   $axios,
   fetchResource() {
-    return $axios.get(`20/`)
+    return $axios.get(`4/`)
   },
   postAnswers(answer) {
     return $axios.post(`process-data`, answer)
